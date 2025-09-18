@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Elvador_FSM.srcs/sources_1/new/elvador_fsm.v" \
+"../../../../Elvador_FSM.srcs/sim_1/new/elevator_fsm_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
