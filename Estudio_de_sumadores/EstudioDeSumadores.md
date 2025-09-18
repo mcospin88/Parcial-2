@@ -45,7 +45,7 @@ El archivo incluye los siguientes circuitos, cada uno con su funcionalidad y pro
 
 ## Elección del sumador según aplicación
 
-Dependiendo de tus necesidades de velocidad y cantidad de compuertas, estos serían los sumadores recomendados:
+Dependiendo de las necesidades de velocidad y cantidad de compuertas, estos serían los sumadores recomendados:
 
 * **Aplicaciones lentas con restricción de espacio y presupuesto:**  
   Para este caso, lo ideal es usar un **Ripple Carry Adder**. Aunque es más lento porque el acarreo se propaga de bit en bit, su diseño es muy sencillo, ocupa pocas compuertas y es barato de implementar. Es perfecto si no necesitas rapidez extrema y quieres ahorrar espacio y costo.
