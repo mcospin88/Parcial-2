@@ -1,0 +1,13 @@
+# Vivado Files to Ignore
+.Xil
+*.jou
+*.log
+*.str
+*.wdb
+*.tcl
+*.zip
+*.cache
+*.ip_user_files
+*.xpr
+*.xpr.lock
+.DS_Store
